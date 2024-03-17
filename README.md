@@ -26,4 +26,12 @@ Haritha TV is a news website that covers all the events and news happening at NS
 ## Contributors
 - [Sithum Sankajith](https://github.com/sithumsankajith)
 - [Dasunika Yapabandara](https://github.com/dasunikayapabandara)
+- [Dhanilka ](https://github.com/dasunikayapabandara)
+- [Sahan Induwara](https://github.com/dasunikayapabandara)
+- [Yasitha Lakshan](https://github.com/dasunikayapabandara)
+- [Sohan Ravindu](https://github.com/dasunikayapabandara)
+- [Harindu Aluthge](https://github.com/dasunikayapabandara)
+- [Nadeesha Thathsarani](https://github.com/dasunikayapabandara)
+- [Bhawanthi Wathsara](https://github.com/dasunikayapabandara)
+- [Ranlini Arukgoda](https://github.com/dasunikayapabandara)
 
