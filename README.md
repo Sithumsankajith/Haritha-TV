@@ -17,7 +17,7 @@ Haritha TV is a news website that covers all the events and news happening at NS
 
 
 ## How to Contribute
-1. Clone the repository: `git clone https://github.com/yourusername/haritha-tv.git`
+1. Clone the repository: `git clone https://github.com/Sithumsankajith/Haritha-TV.git`
 2. Make your changes
 3. Commit your changes: `git commit -m 'Add some feature'`
 4. Push to the branch: `git push origin feature`
