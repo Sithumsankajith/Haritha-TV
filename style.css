@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.navbar{
+  background: linear-gradient(135deg, #3bbe2f, #21bce3);
+
+}
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars,
+.navbar-scroll .navar-brand {
+  color: #ffffff;
+  border-bottom: 2px solid transparent; /* Add an initial transparent border-bottom */
+  transition: border-bottom 0.3s ease; /* Add a smooth transition effect */
+}
+
+.navbar-scroll .nav-link:hover {
+  color: #f9f9f9;
+  border-bottom: 5px solid #f1f4f3;
+
+  /* Change the border color on hover to blue (#1266f1) */
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars,
+.navbar-scrolled .navar-brand {
+  color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #9a1414;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navbar-toggler{
+  border-color: rgb(26, 25, 25);
+}
+/* Your custom styles here */
+.navbar-toggler-icon {
+  border: none;
+  margin-left: 8px;
+  background-image: url("https://res.cloudinary.com/dyiclymbi/image/upload/v1696686962/icons8-menu-50_b1eoqd.png");
+/* Remove the border around the toggle button */
+}
+.navbar-nav .nav-item {
+  margin-right: 20px; /* Adjust the value as needed */
+}
+.navbar-nav{
+  margin: 0 auto;
+  display: flex;
+}
+h1.title {
+  padding:25px;
+  font-size:30px;
+  font-weight: 100;;
+}
+
+.margin-bottom-40 {
+  margin-bottom:40px;
+}
+
+/* Button Sizes*/
+
+.btn-mod.btn-large {
+  height: auto;
+  padding: 13px 52px;
+  font-size: 15px;
+}
+.btnm{
+  padding-top: 3px;
+}
+.btn-mod.btn-medium {
+  height: auto;
+  padding: 10px 35px;
+  font-size: 13px;
+}
+
+.btn-mod.btn-small {
+  height: auto;
+  padding: 6px 16px;
+  font-size: 15px;
+}
+
+/* Button Mod to the original Bootstrap Buttons */
+
+.btn-mod.btn-circle {
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+
+.btn-mod.btn-border {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  background: transparent;
+}
+
+.btn-mod, a.btn-mod {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 4px 13px;
+  color: #fff;
+  background: rgba(34,34,34, .9);
+  border: 2px solid transparent;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+.btn-mod.btn-border:hover, .btn-mod.btn-border:focus{
+  color: #fff;
+  border-color: transparent;
+  background: linear-gradient(135deg,   #3A9EDA, #029b65);
+
+
+}
+
+.btn-mod:hover, .btn-mod:focus, a.btn-mod:hover, a.btn-mod:focus {
+  font-weight: 400;
+  color: rgba(255,255,255, .85);
+  background: rgba(0,0,0, .7);
+  text-decoration: none;
+  outline: none;
+  border-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* Reveal icon on hover */
+
+a.btn.btn-mod.btn-border.animation-one span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+a.btn.btn-mod.btn-border.animation-one span:after {
+  font-family: FontAwesome;
+  content: "\f105";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.3s;
+}
+
+a.btn.btn-mod.btn-border.animation-one:hover span {
+  padding-right: 25px;
+}
+
+a.btn.btn-mod.btn-border.animation-one:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* Footer styling */
+
+.footer i.fa.fa-heart{
+  color:red;
+}
+
+p.footer-text {
+  font-weight: 100;
+}
+/* HeaderStyle.css */
+
+/* CSS */
+.nav-item.active .nav-link {
+  /* Add your hover styles here */
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+/* HARITHA TV TEXT ANIMATION */
+.animated-text span {
+  display: inline-block;
+  font-size: 2em;
+  color:rgb(0, 0, 0);
+  opacity: 0;
+  transform: translateY(1em);
+  animation: fadeInUp 0.5s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animated-text span:nth-child(1) { animation-delay: 0.1s; }
+.animated-text span:nth-child(2) { animation-delay: 0.3s; }
+.animated-text span:nth-child(3) { animation-delay: 0.5s; }
+.animated-text span:nth-child(4) { animation-delay: 0.7s; }
+.animated-text span:nth-child(5) { animation-delay: 0.9s; }
+.animated-text span:nth-child(6) { animation-delay: 01.1s; }
+.animated-text span:nth-child(7) { animation-delay: 01.3s; }
+.animated-text span:nth-child(8) { animation-delay: 01.5s; }
+.animated-text span:nth-child(9) { animation-delay: 01.7s; }
+.animated-text span:nth-child(10) { animation-delay: 01.9s; }
+.animated-text span:nth-child(11) { animation-delay: 02.1s; }
+.animated-text span:nth-child(12) { animation-delay: 02.3s; }
+.animated-text span:nth-child(13) { animation-delay: 02.5s; }
+.animated-text span:nth-child(14) { animation-delay: 02.7s; }
+.animated-text span:nth-child(15) { animation-delay: 02.9s; }
+.animated-text span:nth-child(16) { animation-delay: 03.1s; }
+.animated-text span:nth-child(17) { animation-delay: 03.3s; }
+.animated-text span:nth-child(18) { animation-delay: 03.5s; }
+.animated-text span:nth-child(19) { animation-delay: 03.7s; }
+.animated-text span:nth-child(20) { animation-delay: 03.9s; }
+
+/* ANIMATED PARAGRAPH */
+
+.animated-paragraph p {
+  
+  font-size: 1.8em;
+  color: rgb(0, 0, 0);
+}
+
