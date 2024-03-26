@@ -2,6 +2,9 @@
 
 Haritha TV is a news website that covers all the events and news happening at NSBM Green University.
 
+![Alt text](harithass.png)
+
+
 ## Website Link
 [Haritha TV Website](http://harithatv.liveblog365.com/)
 
